@@ -1,0 +1,2519 @@
+Programming Languages ( Python)
+Data Structures & Algorithms
+(Cover basic to advanced DSA concepts)
+HTML & CSS
+SQL
+GIT & GITHUB
+
+Core CS Subjects
+(Operating Systems, DBMS, and Computer Networks)
+Object-Oriented Programming
+System Design (Start with Low Level, then High Level)
+
+
+1. Programming Languages (Python, JavaScript, Java, C++)
+Data Types and Variables
+Control Flow (if-else, loops)
+Functions (parameters, recursion, lambda functions)
+Error Handling (try/except in Python, try/catch in JavaScript)
+Object-Oriented Programming (OOP): Classes, objects, inheritance, polymorphism, abstraction, encapsulation
+Asynchronous Programming (callbacks, promises, async/await in JavaScript or Python)
+File I/O (reading and writing files)
+Libraries & Frameworks: Basic understanding of libraries used in your tech stack (e.g., Pandas, NumPy, Django for Python, Express.js for JavaScript)
+2. Data Structures & Algorithms (DSA)
+Arrays & Strings
+Traversal, Searching, Sorting
+Two-pointer techniques
+Sliding window
+Linked Lists
+Singly, Doubly Linked List
+Operations: insertion, deletion, reversal
+Cycle detection
+Stacks & Queues
+Implementations (array-based, linked list-based)
+Applications (expression evaluation, parentheses matching, etc.)
+Trees
+Binary Trees, Binary Search Trees (BST)
+Tree Traversal (In-order, Pre-order, Post-order)
+AVL, Red-Black Trees (for advanced knowledge)
+Heaps
+Min-Heap, Max-Heap (Heapify, Insert, Delete)
+Hashing
+HashMaps, HashSets
+Collision handling techniques
+Graphs
+Representation (Adjacency Matrix/List)
+BFS, DFS (Depth First Search, Breadth First Search)
+Shortest Path (Dijkstra’s, Bellman-Ford)
+Topological Sort
+Dynamic Programming (DP)
+Memoization vs Tabulation
+Classical problems (Fibonacci, Knapsack, Longest Common Subsequence)
+Sorting & Searching
+QuickSort, MergeSort, BubbleSort, SelectionSort, InsertionSort
+Binary Search
+Recursion & Backtracking
+Understanding recursive calls and base cases
+Backtracking (e.g., N-Queens, Sudoku Solver)
+3. Core Computer Science Subjects
+Operating System (OS)
+Processes & Threads
+Process management, Creation, Scheduling
+Multithreading and Synchronization (Mutex, Semaphore)
+Memory Management
+Paging, Segmentation, Virtual Memory
+Allocation Strategies (First-fit, Best-fit, Worst-fit)
+File System
+Types of File Systems (FAT, NTFS, etc.)
+File Operations, Directories
+CPU Scheduling
+Scheduling algorithms (FCFS, SJF, Round-Robin, Priority)
+Concurrency & Deadlock
+Conditions for Deadlock (Mutual exclusion, Hold and wait, No preemption, Circular wait)
+Deadlock prevention, avoidance, detection
+System Calls and their functionalities
+Database Management System (DBMS)
+Relational DBMS Concepts
+Tables, Keys (Primary, Foreign), Normalization (1NF, 2NF, 3NF)
+ER diagrams, Data Modeling
+SQL Queries
+SELECT, INSERT, UPDATE, DELETE
+Joins (INNER, LEFT, RIGHT, FULL), Subqueries, Group By, Aggregate Functions
+Indexing, Transactions (ACID properties)
+Normalization and Denormalization
+1NF, 2NF, 3NF, BCNF
+Trade-offs between normalization and denormalization
+Database Design
+Schema design, Referential Integrity, Constraints
+Advanced SQL
+Window Functions, CTEs (Common Table Expressions)
+Triggers, Views, Stored Procedures
+NoSQL Databases
+Basics of MongoDB, Cassandra (if applicable)
+Key-value stores, Document-based stores, Column-family stores
+Computer Networks
+Networking Basics
+OSI Model, TCP/IP Model
+Layers and their functions (Physical, Data Link, Network, Transport, Application)
+IP Addressing & Subnetting
+IPv4, IPv6
+Subnetting, CIDR Notation
+TCP vs UDP
+Differences, use cases, and protocols that use each
+Routing & Switching
+Static vs Dynamic Routing, Routing Algorithms (Dijkstra, RIP)
+Switches, Bridges, Hubs
+DNS, HTTP/HTTPS
+Basics of DNS, HTTP request/response cycle
+Understanding of WebSockets, RESTful APIs
+TCP Handshake & Protocols
+3-way handshake, TCP connection establishment and termination
+Basic protocols (HTTP, FTP, SMTP, DNS)
+4. System Design (Low Level & High Level)
+Low-Level Design
+Class Diagrams, Sequence Diagrams
+Design Patterns (Singleton, Factory, Observer, Strategy, etc.)
+SOLID Principles
+High-Level Design
+Scalability Concepts (Horizontal vs Vertical Scaling)
+Load Balancing, Caching (CDN, Redis, etc.)
+Database Sharding, CAP Theorem (Consistency, Availability, Partition Tolerance)
+Microservices Architecture, REST APIs
+Message Queues (RabbitMQ, Kafka)
+Fault Tolerance, Redundancy
+Security (Encryption, SSL/TLS, OAuth)
+Example Systems: Design a URL shortener, Design a file storage system (Dropbox), etc.
+
+5. Object-Oriented Programming (OOP)
+Principles of OOP
+Encapsulation, Abstraction, Inheritance, Polymorphism
+Design Patterns
+Factory, Singleton, Observer, Strategy, etc.
+Interfaces vs Abstract Classes
+Differences, when to use each
+Composition vs Inheritance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+List of Topics to Learn:
+What is an Algorithm?
+What is a Data Structure?
+What is Debugging?
+What is an IDE (Integrated Development Environment)?
+What is Programming?
+Coding vs programming.
+What is a Computer Program?
+How Does a Computer Execute Code?
+What is a Compiler/Interpreter?
+Why Do We Use Programming Languages?
+What is the Basic Problem-Solving Approach (Breaking Down Problems)?
+What is Logic and Flow of Programs?
+
+
+What is an Algorithm?
+An algorithm is a set of steps or instructions to solve a problem or complete a task. It must solve the problem in any language (whether a programming language or even just plain instructions).
+
+Why?
+It simplifies complex problems by breaking them down into smaller, manageable steps. This ensures efficiency and consistency in solving the problem.
+How?
+An algorithm is like a recipe: it has a set of steps to follow. In programming, these steps are executed in a specific sequence.
+Impact and Uses:
+Impact: Makes tasks faster, more efficient, and reliable.
+Example: Add Two Numbers
+Steps:
+Take input from the user (two numbers).
+Add the two numbers.
+Display the result.
+What is a Data Structure?
+Definition:
+A data structure is a way to organize and store data so that it can be accessed and used efficiently.
+
+Why?
+Helps in organizing data for easier and faster access.
+Makes it easier to modify and manipulate data.
+How?
+Data structures store data in a specific format, like arrays, lists, or trees, based on the problem.
+Problem-Solving:
+Data structures are used to solve problems like sorting, searching, and storing data.
+Example: Searching for a name in a list — use a list or dictionary for fast lookup.
+Purpose:
+Efficiency: Allows fast data storage and retrieval.
+Organization: Organizes data to simplify tasks (e.g., sorting a collection of books).
+
+What is Debugging?
+Definition:
+Debugging is the process of finding and fixing errors or bugs in your code.
+Why?
+It ensures the program runs correctly and meets its intended purpose.
+How?
+By checking the code for mistakes, testing it step-by-step, and fixing any issues found.
+Example (Theoretical):
+Imagine you’re creating a program to calculate the total price of items in a shopping cart.
+You notice the total is showing as zero even though items are added.
+Debugging involves checking your code for errors — you find out that the variable holding the total amount is never being updated, so you fix it by adding the correct logic to update the total as items are added.
+What is an IDE (Integrated Development Environment)?
+Definition:
+An IDE is a software application that provides tools to write, test, and debug your code all in one place.
+Why?
+It helps developers be more productive by providing features like code suggestions, error highlighting, and one-click running.
+How?
+It combines a code editor, compiler/interpreter, debugger, and other tools in one interface.
+Example (Theoretical):
+In an IDE like PyCharm or VS Code, you can write Python code, run it, see errors, and fix them — all within the same window.
+
+What is Programming?
+Definition:
+Programming is the process of writing instructions (code) that a computer can understand to perform specific tasks.
+Why?
+It allows us to control the computer and make it do what we want — from simple calculations to running complex applications.
+How?
+We use programming languages (like Python, Java, or C++) to write the instructions in a way the computer can execute.
+Example (Theoretical):
+You write a Python program to add two numbers: The program receives inputs, performs the addition, and shows the result.
+
+Coding vs Programming
+Coding:
+Definition: Writing individual lines of code to make the computer do something specific.
+Focus: Writing the instructions, but may not involve problem-solving or planning.
+Programming:
+Definition: The broader process of designing, writing, testing, and maintaining code to solve a problem or build software.
+Focus: Includes problem-solving, planning, and implementing solutions through code.
+Code vs Program
+Code:
+Definition: A set of individual instructions written in a programming language.
+Example: A single line of Python code like print("Hello World!").
+Program:
+Definition: A complete, functional set of code that solves a specific problem or performs a task.
+Example: A complete Python script or application that takes user input, processes it, and displays results.
+
+What is a Computer Program?
+Definition:
+A computer program is a set of instructions written in a programming language that tells the computer what to do.
+Why?
+It allows the computer to perform specific tasks, like calculations, data processing, or interacting with users.
+How?
+The program runs as a whole and processes data based on the instructions provided.
+Example (Theoretical):
+A calculator program takes numbers as input, performs calculations (addition, subtraction, etc.), and displays the result to the user.
+How Does a Computer Execute Code?
+Definition:
+A computer executes code by translating instructions (written in programming languages) into machine language, which the computer's hardware can understand and execute.
+Why?
+It allows the computer to perform tasks based on the programmer’s instructions.
+How?
+The code is written in a high-level language (like Python or C).
+The compiler or interpreter translates it into machine code (binary).
+The CPU reads and executes the machine code step by step.
+Example (Theoretical):
+You write a Python program. The Python interpreter translates the code into machine code and the CPU executes it, giving you the output.
+What is a Compiler/Interpreter?
+Compiler:
+A compiler translates the entire program's source code into machine code at once before execution.
+Once compiled, the program can be run multiple times without needing to recompile.
+Interpreter:
+An interpreter translates the source code into machine code line by line during execution.
+The program needs to be interpreted every time it is run.
+Why?
+A compiler makes the program run faster (since it compiles all at once), while an interpreter is more flexible (it translates code line by line).
+Example (Theoretical):
+Compiler Example: C or C++ uses a compiler to convert code into machine code.
+Interpreter Example: Python uses an interpreter, so each time you run the Python program, the interpreter translates and executes it line by line.
+Why Do We Use Programming Languages?
+Definition:
+Programming languages are used to write instructions for computers in a way that is understandable to both humans and machines.
+Why?
+Communication: Computers don't understand human languages, but programming languages allow us to communicate with them clearly and efficiently.
+Abstraction: They provide a higher-level way to express complex ideas without needing to deal with machine-level details (like binary).
+Portability: Programs can run on different machines and platforms by using the same code in a particular language.
+Example (Theoretical):
+Instead of writing in machine code (0s and 1s), you use a language like Python or Java to write a program, which the compiler or interpreter translates into machine code.
+What is the Basic Problem-Solving Approach (Breaking Down Problems)?
+Definition:
+The basic problem-solving approach is about dividing a large problem into smaller, more manageable tasks and solving each part step-by-step.
+Why?
+It makes complex problems easier to understand and solve.
+It helps to avoid feeling overwhelmed and ensures that you stay focused on one task at a time.
+How?
+Understand the problem: Make sure you know what the issue is.
+Break it down: Split the problem into smaller parts.
+Solve each part: Tackle each small part one by one.
+Combine solutions: Once all parts are solved, put them together to solve the main problem.
+Example (Theoretical):
+Problem: Make a sandwich.
+Break it down: First, get bread. Then add fillings. Finally, close the sandwich.
+Now you have a complete sandwich (solution).
+What is Logic and Flow of Programs?
+Definition:
+The logic of a program is the set of instructions that define how the program solves a problem. The flow refers to the order in which those instructions are executed.
+Why?
+The logic ensures the program behaves as intended.
+The flow ensures that instructions are executed in the correct sequence to achieve the desired result.
+How?
+Logic: Involves conditions, loops, and calculations.
+Flow: Managed by control structures like if-else, loops, and functions that dictate the sequence of steps.
+Example (Theoretical):
+Logic: Check if a number is even or odd.
+If the number is divisible by 2, it is even. Otherwise, it's odd.
+Flow:
+Step 1: Get the number from the user.
+Step 2: Check if the number is divisible by 2.
+Step 3: Print the result ("Even" or "Odd").
+
+Refined and Simplified Summary
+
+Let’s take an example of a list in Python: list = ['1', '2', '3', '4']. Here, we are storing the data in an organized and structured way, which allows us to access and modify the data easily.
+Now, consider the example of a calculator. We need to write a computer program that can perform calculations. But we cannot just start writing the program without planning. This is where programming and the SDLC (Software Development Life Cycle) come in. We need to follow a structured process before writing code.
+Algorithm:
+Before coding, we need to write clear steps or instructions that will solve the problem. These instructions (the algorithm) will work in any programming language.
+Once we have the algorithm, we can start writing the code. The code is divided into smaller blocks (functions or methods), and the overall code forms a complete program.
+Code vs Program:
+In this case, the code refers to individual instructions or functions, while the program is the complete solution to the problem.
+Logic and Flow:
+Logic is the actual code that solves the problem, and flow is the sequence or algorithm that guides how the logic is executed.
+Data Structures (DSA):
+In the program, we use data structures like lists to store, organize, and modify data efficiently.
+IDE (Integrated Development Environment):
+To write and run our program, we use an IDE (e.g., PyCharm or VS Code), where we can write, run, debug, and test the code. The IDE helps with syntax errors, provides suggestions, and allows us to set breakpoints for debugging.
+Debugging:
+Debugging is the process of finding and fixing errors in the code to ensure it works correctly.
+Compilers and Interpreters:
+When we write the code in a high-level language like Python, the computer doesn’t understand it directly. So, we use compilers and interpreters to translate the code into machine-readable language (binary/0&1).
+A compiler converts the entire code into machine code at once and doesn’t need to convert it every time you run the program.
+An interpreter converts the code line by line every time the program runs.
+
+Order:
+Problem → Computer Program (SDLC) → Algorithm → DSA (Data Structures) → Code → Computer Program → IDE → Debugging → Compiler → Interpreter.
+
+
+
+
+
+Programming Languages ( Python)
+https://www.tutorialspoint.com/python
+A programming language is a way for humans to communicate with computers. It is a set of rules and instructions that allow us to write code that tells the computer what to do. Just like we use English or other languages to communicate with people, we use programming languages to communicate with computers.
+
+
+What is Python?
+Python is a very popular general-purpose interpreted, interactive, object-oriented, and high-level programming language. Python is a dynamically-typed and garbage-collected programming language. It was created by Guido van Rossum during 1985- 1990.
+
+Interpreted: Python code is executed line by line by an interpreter (not compiled into machine code first).
+Example: Running python script.py directly executes the code.
+Interactive: You can run Python commands one by one in a command-line interface (like Python shell).
+Example: >>> print("Hello") outputs Hello immediately in the shell.
+Object-oriented: Python supports OOP, meaning it allows the use of classes and objects.
+Example: class Dog: def bark(self): print("Woof!")
+High-level: Python is closer to human languages, abstracting away low-level hardware details.
+Example: You don't need to manage memory manually (like in C).
+Low-level: Refers to languages that interact directly with hardware (e.g., C or assembly).
+Example: C uses pointers and manual memory management.
+Dynamically typed: You don’t need to declare the type of a variable (the type is determined at runtime).
+Example: x = 10 (Later, x can be changed to a string: x = "Hello").
+Statically typed: You must declare the type of a variable (like in Java or C).
+Example: int x = 10; in Java or C.
+Garbage-collected means that the programming language automatically manages memory by cleaning up and freeing memory that is no longer being used (i.e., unused objects that are no longer referenced).
+Example:
+If you create a variable and then stop using it, Python will automatically remove that variable from memory after a while, so you don’t have to manually free the memory.
+Careers with Python
+If you know Python nicely, then you have a great career ahead. Here are just a few of the career options where Python is a key skill:
+Game developer
+Web designer
+Python developer
+Full-stack developer
+Machine learning engineer
+Data scientist
+Data analyst
+Data engineer
+DevOps engineer
+Software engineer
+Many more other roles
+The Python Enhancement Proposal (PEP) process is a way for the Python community to propose and discuss new ideas, features, or changes to the Python programming language. It's a formalized process where anyone can suggest improvements or new features, and these suggestions are reviewed by experts and the Python community before being accepted or rejected.
+
+For many uninitiated people, the word Python is related to a species of snake. Rossum attributes the choice of the name Python to a popular comedy series Monty Python's Flying Circus on BBC.
+
+Python is a case sensitive programming language. Thus, Manpower and manpower are two different identifiers in Python.
+
+Python Identifiers
+A Python identifier is a name used to identify a variable, function, class, module or other object. An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters, underscores and digits (0 to 9).
+Python does not allow punctuation characters such as @, $, and % within identifiers.
+Python Reserved Words
+The following list shows the Python keywords. These are reserved words and you cannot use them as constant or variable or any other identifier names. All the Python keywords contain lowercase letters only.
+Python Variables
+Python variables are the reserved memory locations used to store values within a Python Program. This means that when you create a variable you reserve some space in the memory.
+
+>>> "May"
+May
+>>> id("May")
+2167264641264
+
+>>> 18
+18
+>>> id(18)
+140714055169352
+
+counter = 100
+print (counter)
+
+del counter
+print (counter)
+
+
+Casting Python Variables
+x = str(10)    # x will be '10'
+y = int(10)    # y will be 10 
+z = float(10)  # z will be 10.0
+
+print( "x =", x )
+print( "y =", y )
+print( "z =", z )
+
+Case-Sensitivity of Python Variables
+Python variables are case sensitive which means Age and age are two different variables:
+age = 20
+Age = 30
+
+age is the name you chose to refer to a certain value.
+= means you're giving age the value of 20.
+20 is just the number you're assigning to the variable age.
+
+
+print( "age =", age )
+print( "Age =", Age )
+
+>>> a=b=c=10
+>>> print (a,b,c)
+10 10 10
+
+Python Variables - Naming Convention
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number or any special character like $, (, * % etc.
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Python variable names are case-sensitive which means Name and NAME are two different variables in Python.
+Python reserved keywords cannot be used naming the variable.
+
+
+Camel case − First letter is lowercase, but first letter of each subsequent word is in uppercase. For example: kmPerHour, pricePerLitre
+Pascal case − First letter of each word is in uppercase. For example: KmPerHour, PricePerLitre
+Snake case − Use single underscore (_) character to separate words. For example: km_per_hour, price_per_litre
+Python Global Variables Python Local Variables
+
+
+Python Data Types
+In general, the data types are used to define the type of a variable. It represents the type of data we are going to store in a variable and determines what operations can be done on it.
+
+Python is dynamically typed, the data type of a variable is determined at runtime based on the assigned value.
+
+
+ Python Range Data Type
+
+range(start, stop, step)
+
+for i in range(1, 5, 2):
+  print(i)
+1
+3
+
+for i in range(1, 10, 1):
+  print(i)
+1 2 3 4 5 6 7 8 9
+
+for i in range(1, 10, 2):
+  print(i)
+1 3 5 7 9
+
+for i in range(1, 10, 3):
+  print(i)
+1 4 7
+
+for i in range(1, 10, 4):
+  print(i)
+1 5 9
+for i in range(1, 10, 5):
+  print(i)
+1 6
+Primitive Types
+Stores Single value
+
+Integers Floats Booleans, and Strings
+
+Non-primitive Types
+Stores multiple value
+
+Lists Tuples Dictionaries, and Sets
+
+Python Data Type Conversion
+
+print("Conversion to integer data type")
+a = int(1)     # a will be 1
+b = int(2.2)   # b will be 2
+c = int("3.3")   # c will be 3
+
+print (a)
+print (b)
+print (c)
+
+print("Conversion to floating point number")
+a = float(1)     # a will be 1.0
+b = float(2.2)   # b will be 2.2
+c = float("3.3") # c will be 3.3
+
+print (a)
+print (b)
+print (c)
+
+print("Conversion to string")
+a = str(1)     # a will be "1" 
+b = str(2.2)   # b will be "2.2"
+c = str("3.3") # c will be "3.3"
+
+print (a)
+print (b)
+print (c)
+
+Python Type Casting
+
+
+
+Type Conversion and Type Casting both refer to changing the data type of a variable, but they differ in how they are done:
+Type Conversion: This is when Python automatically converts one data type to another. It's implicit and done by Python itself.
+Type Casting: This is when you manually specify the conversion from one data type to another using functions.
+# Type Conversion (Implicit)
+x = 10      # Integer
+y = 2.5     # Float
+result = x + y  # Python converts x to float automatically
+print(result)  # Output: 12.5
+
+# Type Casting (Explicit)
+a = "123"     # String
+b = int(a)    # Manually convert string to integer
+print(b)      # Output: 123
+
+Type Conversion: x + y where x (int) is converted to float automatically.
+Type Casting: int(a) where the string "123" is explicitly converted to an integer.
+
+
+Python literals are fixed values used directly in the code to represent data. Here's a brief explanation of each type:
+String Literal: Represents a sequence of characters enclosed in single, double, or triple quotes.
+Example: 'Hello', "World", '''Multiline'''
+Integer Literal: Represents whole numbers.
+Example: 42, -7
+Floating-point Literal: Represents decimal numbers.
+Example: 3.14, -0.001
+Boolean Literal: Represents truth values, either True or False.
+Example: True, False
+None Literal: Represents the absence of a value.
+Example: None
+List Literal: Represents an ordered collection of elements.
+Example: [1, 2, 3], ['a', 'b', 'c']
+Tuple Literal: Represents an ordered, immutable collection of elements.
+Example: (1, 2, 3), ('x', 'y')
+Dictionary Literal: Represents an unordered collection of key-value pairs.
+Example: {'name': 'Alice', 'age': 25}
+Set Literal: Represents an unordered collection of unique elements.
+Example: {1, 2, 3}, { 'apple', 'banana' }
+Byte Literal: Represents a sequence of bytes.
+Example: b'Hello'
+Python Operators
+
+Arithmetic Operators
+Addition (+)
+ Adds two operands.
+ Example: a + b = 30
+
+
+Subtraction (-)
+ Subtracts the second operand from the first.
+ Example: a - b = 10
+
+
+Multiplication (*)
+ Multiplies two operands.
+ Example: a * b = 50
+
+
+Division (/)
+ Divides the first operand by the second, returns float.
+ Example: a / b = 2.5
+
+
+Floor Division (//)
+ Divides the first operand by the second and returns the largest integer.
+ Example: a // b = 2
+2 is the Quotient.
+
+
+
+Modulus (%)
+ Returns the remainder of the division.
+ Example: a % b = 1
+
+
+Exponentiation (**)
+ Raises the first operand to the power of the second.
+ Example: a ** b = 32
+
+
+
+Comparison (Relational) Operators
+Equal to (==)
+ Checks if two operands are equal.
+ Example: a == b (True if a equals b)
+
+
+Not equal to (!=)
+ Checks if two operands are not equal.
+ Example: a != b (True if a does not equal b)
+
+
+Greater than (>)
+ Checks if the first operand is greater than the second.
+ Example: a > b (True if a is greater than b)
+
+
+Less than (<)
+ Checks if the first operand is less than the second.
+ Example: a < b (True if a is less than b)
+
+
+Greater than or equal to (>=)
+ Checks if the first operand is greater than or equal to the second.
+ Example: a >= b (True if a is greater than or equal to b)
+
+
+Less than or equal to (<=)
+ Checks if the first operand is less than or equal to the second.
+ Example: a <= b (True if a is less than or equal to b)
+
+
+
+Assignment Operators
+Assignment (=)
+ Assigns the value of the right operand to the left operand.
+ Example: a = 5
+
+
+Add and assign (+=)
+ Adds the right operand to the left and assigns the result to the left operand.
+ Example: a += 5 (Equivalent to a = a + 5)
+
+
+Subtract and assign (-=)
+ Subtracts the right operand from the left and assigns the result to the left operand.
+ Example: a -= 5 (Equivalent to a = a - 5)
+
+
+Multiply and assign (*=)
+ Multiplies the left operand by the right operand and assigns the result to the left operand.
+ Example: a *= 5 (Equivalent to a = a * 5)
+
+
+Divide and assign (/=)
+ Divides the left operand by the right operand and assigns the result to the left operand.
+ Example: a /= 5 (Equivalent to a = a / 5)
+
+
+Floor divide and assign (//=)
+ Performs floor division and assigns the result to the left operand.
+ Example: a //= 5 (Equivalent to a = a // 5)
+
+
+Modulus and assign (%=)
+ Takes the modulus of the left operand by the right operand and assigns the result to the left operand.
+ Example: a %= 5 (Equivalent to a = a % 5)
+
+
+Exponent and assign (**=)
+ Raises the left operand to the power of the right operand and assigns the result to the left operand.
+ Example: a **= 5 (Equivalent to a = a ** 5)
+
+
+
+Logical Operators
+AND (and)
+ Returns True if both operands are true.
+ Example: a and b (True if both a and b are true)
+
+
+OR (or)
+ Returns True if at least one operand is true.
+ Example: a or b (True if either a or b is true)
+
+
+NOT (not)
+ Reverses the boolean value of the operand.
+ Example: not a (True if a is false)
+
+
+
+Bitwise Operators
+AND (&)
+ Performs a bitwise AND operation.
+ Example: a & b
+
+
+OR (|)
+ Performs a bitwise OR operation.
+ Example: a | b
+
+
+XOR (^)
+ Performs a bitwise XOR operation.
+ Example: a ^ b
+
+
+NOT (~)
+ Inverts all the bits of the operand.
+ Example: ~a
+
+
+Left Shift (<<)
+ Shifts the bits of the first operand left by the number of positions specified by the second operand.
+ Example: a << 2
+
+
+Right Shift (>>)
+ Shifts the bits of the first operand right by the number of positions specified by the second operand.
+ Example: a >> 2
+
+
+
+Membership Operators
+In (in)
+ Checks if a value is present in a sequence (e.g., list, string).
+ Example: a in [1, 2, 3]
+
+
+Not in (not in)
+ Checks if a value is not present in a sequence.
+ Example: a not in [1, 2, 3]
+
+
+
+Identity Operators
+Is (is)
+ Checks if two operands refer to the same object in memory.
+ Example: a is b
+
+
+Is not (is not)
+ Checks if two operands do not refer to the same object in memory.
+ Example: a is not b
+# + : Add two numbers a = 10, b = 5 and print the result
+print(10 + 5) #15
+# - : Subtract b = 5 from a = 10 and print the result
+print(10-5) #10
+# * : Multiply a = 10 by b = 5 and print the result
+print(10*5) #50
+# / : Divide a = 10 by b = 3 and print the result
+print(10/5) #2.0
+# // : Floor divide a = 10 by b = 3 and print the result
+print(10//3) #3
+# % : Find the remainder when a = 10 is divided by b = 3 and print the result
+print(10%3) #1
+# ** : Raise a = 2 to the power of b = 5 and print the result
+print(2**3) #8
+# == : Check if a = 10 is equal to b = 10 and print True or False
+print(3 == 4) # False
+# != : Check if a = 10 is not equal to b = 5 and print True or False
+print('abc' != 'ghj') #True
+# > : Check if a = 10 is greater than b = 5 and print True or False
+print(10>5) #True
+# < : Check if a = 10 is less than b = 15 and print True or False
+print(10<9) # False
+# >= : Check if a = 10 is greater than or equal to b = 10 and print True or False
+print(10>=9) # True
+# <= : Check if a = 10 is less than or equal to b = 10 and print True or False
+print(10<=9) # False
+# += : Add 5 to a = 10 using += operator and print the result
+a = 10
+a+=20
+print(a) #30
+# -= : Subtract 3 from a = 10 using -= operator and print the result
+a = 10
+a-=20
+print(a) #-10
+# *= : Multiply a = 5 by 3 using *= operator and print the result
+a = 10
+a*=20
+print(a) #200
+
+# /= : Divide a = 20 by 4 using /= operator and print the result
+a = 10
+a /=20
+print(a) #0.5
+# and : Check if both a = 10 and b = 5 are greater than 0 using `and` operator and print the result
+print( 10 > 5 and 11 > 3) # True
+# or : Check if at least one of a = 10 or b = 0 is greater than 0 using `or` operator and print the result
+print( 10 > 5 or 11 > 12) # True
+# not : Check if a = 10 is not equal to 0 using `not` operator and print the result
+b = 10
+print(not b == 0) #True
+print("Hello, World!")  # Inline single line comment is placed here
+# & : Perform bitwise AND between a = 12 and b = 5 and print the result
+print(10 & 5) #0
+# | : Perform bitwise OR between a = 12 and b = 5 and print the result
+print(10 | 5) #15
+# ^ : Perform bitwise XOR between a = 12 and b = 5 and print the result
+print(12 ^ 5) #9
+# ~ : Perform bitwise NOT on a = 5 and print the result
+print(~10) #-11
+
+# << : Shift the bits of a = 5 to the left by 2 positions and print the result
+print(5 << 2) #20
+# >> : Shift the bits of a = 5 to the right by 2 positions and print the result
+print(5 >> 2) #1
+# is : Check if a = 10 and b = 10 refer to the same object using `is` operator and print the result
+c = 3
+d = 4
+print(c is d) #False
+# is not : Check if a = 10 and b = 5 do not refer to the same object using `is not` operator and print the result
+print(c is not d) #True
+
+
+
+In Python, operator precedence dictates the order in which operations are performed in an expression. Here's how the operators in your example are prioritized:
+Parentheses () have the highest precedence. Anything inside parentheses is evaluated first, regardless of other operators.
+Multiplication *, Division /, Modulo %, and Floor Division // have the same precedence and are evaluated from left to right.
+Addition + and Subtraction - have the lowest precedence and are also evaluated from left to right.
+
+a = 20 b = 10 c = 15 d = 5 e = 0
+1. Expression:
+e = (a + b) * c / d
+Step 1: First, evaluate the expression inside the parentheses: (a + b).
+a + b = 20 + 10 = 30
+Step 2: Multiply the result by c.
+30 * c = 30 * 15 = 450
+Step 3: Finally, divide the result by d.
+450 / d = 450 / 5 = 90
+So, the final result is 90.
+2. Expression:
+e = ((a + b) * c) / d
+Step 1: First, evaluate the expression inside the innermost parentheses: (a + b).
+a + b = 20 + 10 = 30
+Step 2: Multiply the result by c.
+30 * c = 30 * 15 = 450
+Step 3: Finally, divide the result by d.
+450 / d = 450 / 5 = 90
+So, the final result is also 90.
+3. Expression:
+e = (a + b) * (c / d)
+Step 1: First, evaluate the expression inside the parentheses (c / d).
+c / d = 15 / 5 = 3
+Step 2: Then, calculate a + b.
+a + b = 20 + 10 = 30
+Step 3: Multiply the two results together.
+30 * 3 = 90
+So, the final result is 90.
+4. Expression:
+e = a + (b * c) / d
+Step 1: First, evaluate the multiplication inside the parentheses: (b * c).
+b * c = 10 * 15 = 150
+Step 2: Then, divide the result by d.
+150 / d = 150 / 5 = 30
+Step 3: Finally, add a to the result.
+a + 30 = 20 + 30 = 50
+So, the final result is 50.
+Summary of Results:
+The first expression results in 90.
+The second expression results in 90.
+The third expression results in 90.
+The fourth expression results in 50.
+In all cases, parentheses are evaluated first, followed by multiplication and division from left to right, and addition last.
+Python Comments
+Python comments are programmer-readable explanation or annotations in the Python source code. They are added with the purpose of making the source code easier for humans to understand, and are ignored by Python interpreter. Comments enhance the readability of the code and help the programmers to understand the code very carefully.
+Single Line Comments in Python
+# Standalone single line comment is placed here
+Inline Single-Line Comment
+print(10-5)   #10
+
+Multi Line Comments in Python
+"""
+This function calculates the greatest common divisor (GCD)
+of two numbers using the Euclidean algorithm. The GCD of
+two numbers is the largest number that divides both of them
+without leaving a remainder.
+"""
+User Input in Python
+name = input("Enter your name : ")
+print ("Hello My name is", name)
+width = int(input("Enter width : "))
+
+
+city="Hyderabad"
+state="Telangana"
+country="India"
+print(city, state, country, sep=',')
+
+​​Example ➕
+# Text: input() returns a string by default.
+name = input("Enter your name: ")  # Takes text input
+print("Hello", name)
+
+# Numbers: Use int() or float() to convert input to numbers.
+age = int(input("Enter your age: "))  # Takes integer input
+height = float(input("Enter your height in meters: "))  # Takes float input
+print("Age:", age, "Height:", height)
+
+# Multiple Inputs: Use split() to separate values.
+x, y = input("Enter two numbers separated by space: ").split()  # Takes multiple inputs
+x = int(x)  # Convert to integer
+y = int(y)  # Convert to integer
+print("Sum of x and y:", x + y)
+
+# List: Convert a split input to a list using list().
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))  # List of integers
+print("Your list of numbers:", numbers)
+
+# Set: Convert a split input to a set using set().
+elements = set(input("Enter elements separated by space: ").split())  # Set input (duplicates removed)
+print("Your set:", elements)
+
+# Dictionary: Parse key-value pairs to form a dictionary.
+dictionary = {}
+n = int(input("Enter the number of key-value pairs: "))  # Number of dictionary entries
+for _ in range(n):
+    key, value = input("Enter key and value separated by space: ").split()  # Key-value pair input
+    dictionary[key] = value
+print("Your dictionary:", dictionary) 
+
+Python Control Statements
+if elif else
+
+amount = 2500
+print('Amount = ',amount)
+if amount > 10000:
+discount = amount * 20 / 100
+else:
+if amount > 5000:
+discount = amount * 10 / 100
+else:
+if amount > 1000:
+discount = amount * 5 / 100
+else:
+discount = 0
+print('Payable amount = ',amount - discount)
+Python - Nested if Statement
+num = 36
+print ("num = ", num)
+if num % 2 == 0:
+if num % 3 == 0:
+print ("Divisible by 3 and 2")
+print("....execution ends....")
+Python match-case Statement
+
+def weekday(n):
+   match n:
+      case 0: return "Monday"
+      case 1: return "Tuesday"
+      case 2: return "Wednesday"
+      case 3: return "Thursday"
+      case 4: return "Friday"
+      case 5: return "Saturday"
+      case 6: return "Sunday"
+      case _: return "Invalid day number"
+print (weekday(3))
+print (weekday(6))
+print (weekday(7))
+
+
+def access(user):
+   match user:
+      case "admin" | "manager": return "Full access"
+      case "Guest": return "Limited access"
+      case _: return "No access"
+print (access("manager"))
+print (access("Guest"))
+print (access("Ravi"))
+
+def greeting(details):
+   match details:
+      case [time, name]:
+         return f'Good {time} {name}!'
+      case [time, *names]:
+         msg=''
+         for name in names:
+            msg+=f'Good {time} {name}!\n'
+         return msg
+
+print (greeting(["Morning", "Ravi"]))
+print (greeting(["Afternoon","Guest"]))
+print (greeting(["Evening", "Kajal", "Praveen", "Lata"]))
+
+
+
+Python - Loops
+
+for num in range(5):
+   print (num, end=' ')
+print()
+for num in range(10, 20):
+   print (num, end=' ')
+print()
+for num in range(1, 10, 2):
+   print (num, end=' ')
+
+0 1 2 3 4
+10 11 12 13 14 15 16 17 18 19
+1 3 5 7 9
+for num in range(10, 20):  
+   #For loop to iterate on the factors 
+   for i in range(2,num): 
+      #If statement to determine the first factor
+      if num%i == 0:      
+         #To calculate the second factor
+         j=num/i          
+         print ("%d equals %d * %d" % (num,i,j))
+         #To move to the next number
+         break 
+      else:                  
+         print (num, "is a prime number")
+         break
+
+for count in range(6):
+   print ("Iteration no. {}".format(count))
+else:
+   print ("for loop over. Now in else block")
+print ("End of for loop")
+count=0
+while count<5:
+   count+=1
+   print ("Iteration no. {}".format(count))
+
+print ("End of while loop")
+
+count=0
+while count<5:
+   count+=1
+   print ("Iteration no. {}".format(count))
+else:
+   print ("While loop over. Now in else block")
+print ("End of while loop")
+
+Python - break Statement
+
+The most common use for a Python break statement is when some external condition is triggered requiring a sudden exit from a loop. The break statement can be used in both Python while and for loops.
+
+var = 10                   
+while var > 0:              
+   print ('Current variable value :', var)
+   var = var -1
+   if var == 5:
+      break
+
+print ("Good bye!")
+
+Current variable value : 10
+Current variable value : 9
+Current variable value : 8
+Current variable value : 7
+Current variable value : 6
+Good bye!
+
+Python - Continue Statement
+
+The continue statement is just the opposite to that of break. It skips the remaining statements in the current loop and starts the next iteration.
+for letter in 'Python':
+   if letter == 'h':
+      continue
+   print ('Current Letter :', letter)
+print ("Good bye!")
+
+Current Letter : P
+Current Letter : y
+Current Letter : t
+Current Letter : o
+Current Letter : n
+Good bye!
+
+
+Python - pass Statement
+Python pass statement is used when a statement is required syntactically but you do not want any command or code to execute. It is a null which means nothing happens when it executes. This is also useful in places where pieces of code will be added later, but a placeholder is required to ensure the program runs without errors.
+
+
+def func1():
+   # Alternative to pass
+   ...                   
+
+# Works on same line too
+def func2(): ...          
+ # Does nothing if called
+func1()                  
+func2()  
+
+Python - Nested Loops
+months = ["jan", "feb", "mar"]
+days = ["sun", "mon", "tue"]
+
+for x in months:
+  for y in days:
+    print(x, y)
+
+print("Good bye!")
+
+
+jan sun
+jan mon
+jan tue
+feb sun
+feb mon
+feb tue
+mar sun
+mar mon
+mar tue
+Good bye!
+
+Python - Functions
+
+A Python function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.
+
+def addition(a,b):
+    return  a + b
+print(addition(2,3))
+
+def addition(a,b):
+     print( a + b)
+addition(2,3)
+
+The below code do not give the result
+def addition(a,b):
+     return  a + b
+addition(2,3)
+
+
+
+Python uses a pass by reference mechanism. As a variable in Python is a label or reference to the object in the memory, both the variables used as actual argument as well as formal arguments really refer to the same object in the memory. We can verify this fact by checking the id() of the passed variable before and after passing.
+
+def testfunction(arg):
+print ("ID inside the function:", id(arg))
+var = "Hello"
+print ("ID before passing:", id(var))
+testfunction(var)
+ID before passing: 1996838294128
+ID inside the function: 1996838294128
+Python Function Arguments
+Function arguments are the values or variables passed into a function when it is called. The behavior of a function often depends on the arguments passed to it.
+
+
+Keyword Arguments
+
+# Function definition is here
+def printinfo( name, age ):
+"This prints a passed info into this function"
+print ("Name: ", name)
+print ("Age ", age)
+return;
+# Now you can call printinfo function
+printinfo( age=50, name="miki" )
+
+
+Name:  miki
+Age  50
+Default Arguments
+
+# Function definition is here
+def printinfo( name, age = 35 ):
+"This prints a passed info into this function"
+print ("Name: ", name)
+print ("Age ", age)
+return;
+# Now you can call printinfo function
+printinfo( age=50, name="miki" )
+printinfo( name="miki" )
+
+Name:  miki
+Age  50
+Name:  miki
+Age  35
+Arbitrary or Variable-length Arguments
+
+# Function definition is here
+def printinfo( arg1, *vartuple ):
+"This prints a variable passed arguments"
+print ("Output is: ")
+print (arg1)
+for var in vartuple:
+print (var)
+return;
+# Now you can call printinfo function
+printinfo( 10 )
+printinfo( 70, 60, 50 )
+Output is:
+10
+Output is:
+70
+60
+50
+
+Function Annotations
+The function annotation feature of Python enables you to add additional explanatory metadata about the arguments declared in a function definition, and also the return data type. They are not considered by Python interpreter while executing the function. They are mainly for the Python IDEs for providing a detailed documentation to the programmer.
+
+def myfunction(a: int, b: int):
+   c = a+b
+   return c
+   
+print (myfunction(10,20))
+print (myfunction("Hello ", "Python"))
+
+def myfunction(a: int, b: int) -> int:
+   c = a+b
+   return c
+print(myfunction(56,88))
+print(myfunction.__annotations__)
+
+
+Python Modules
+The concept of module in Python further enhances the modularity. You can define more than one related functions together and load required functions. A module is a file containing definition of functions, classes, variables, constants or any other Python object. Contents of this file can be made available to any other program. Python has the import keyword for this purpose.
+
+import math
+print ("Square root of 100:", math.sqrt(100))
+
+def SayHello(name):
+   print ("Hi {}! How are you?".format(name))
+   Return
+
+Python - Strings
+
+In Python, a string is an immutable sequence of Unicode characters. Each character has a unique numeric value as per the UNICODE standard. But, the sequence as a whole, doesn't have any numeric value even if all the characters are digits. To differentiate the string from numbers and other identifiers, the sequence of characters is included within single, double or triple quotes in its literal representation. Hence, 1234 is a number (integer) but '1234' is a string.
+
+String Formatting Operator
+print ("My name is %s and weight is %d kg!" % ('Zara', 21))
+
+var = 'Welcome to "Python Tutorial" from TutorialsPoint'
+print ("var:", var)
+
+var = "Welcome to 'Python Tutorial' from TutorialsPoint"
+print ("var:", var)
+
+var: Welcome to "Python Tutorial" from TutorialsPoint
+var: Welcome to 'Python Tutorial' from TutorialsPoint
+In Python, single (') and double (") quotes are functionally equivalent for defining strings. The choice is usually a matter of style or convenience. Use single quotes if the string contains double quotes, and vice versa, to avoid needing escape characters. For example:
+'Hello, world!'
+"Hello, world!"
+'He said, "Hi!"'
+"Hello, it's me!"
+
+Python String slicing is a way of creating a sub-string from a given string. In this process, we extract a portion or piece of a string. Usually, we use the slice operator "[ : ]" to perform slicing on a Python String. Before proceeding with string slicing let's understand string indexing.
+
+
+
+name = "Tutorialspoint"
+print("Welcome to %s!" % name)
+
+str = "Welcome to {}"
+print(str.format("Tutorialspoint"))
+
+item1_price = 2500
+item2_price = 300
+total = f'Total: {item1_price + item2_price}'
+print(total)
+
+Python - Lists
+
+List is one of the built-in data types in Python. A Python list is a sequence of comma separated items, enclosed in square brackets [ ]. The items in a Python list need not be of the same data type.
+
+list1 = ["Rohan", "Physics", 21, 69.75] #Different data types.
+list2 = [1, 2, 3, 4, 5]
+list3 = ["a", "b", "c", "d"]
+list4 = [25.50, True, -55, 1+2j]
+A Python list is mutable. Any item from the list can be accessed using its index, and can be modified. One or more objects from the list can be removed or added. A list may have the same item at more than one index position.
+
+list = ['physics', 'chemistry', 1997, 2000];
+print ("Value available at index 2 : ")
+print (list[2])
+list[2] = 2001;
+print ("New value available at index 2 : ")
+print (list[2])
+list1 = ['physics', 'chemistry', 1997, 2000];
+print (list1)
+del list1[2];
+print ("After deleting value at index 2 : ")
+print (list1)
+[1, 2, 3] + [4, 5, 6] = 	[1, 2, 3, 4, 5, 6]	Concatenation
+['Hi!'] * 4 =	['Hi!', 'Hi!', 'Hi!', 'Hi!']	Repetition
+3 in [1, 2, 3]	True	Membership
+
+list = ['P','y','t','h','o','n','P', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'i', 'n', 'g']
+
+# print(list)
+# print(list[0:])
+# print(list[:-1])
+# print(list[::-1])
+# print(list[0:190])
+# print(list[0:17])
+print(list[0:17:1])
+print(list[0:17:2])
+print(list[0:17:3])
+print(list[0:17:4])
+
+['P', 'y', 't', 'h', 'o', 'n', 'P', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'i', 'n', 'g']
+['P', 't', 'o', 'P', 'o', 'r', 'm', 'i', 'g']
+['P', 'h', 'P', 'g', 'm', 'n']
+['P', 'o', 'o', 'm', 'g']
+list = [i for i in range(1,21)]
+# print(list)
+print(list[0:20:1])
+print(list[0:20:2])
+print(list[0:20:3])
+print(list[0:20:4])
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+[1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+[1, 4, 7, 10, 13, 16, 19]
+[1, 5, 9, 13, 17]
+list1.append('e')
+list1.insert(2, 'Chemistry')
+list1.extend(another_list)
+list1.remove("Physics")
+list2.pop(2) —-single element
+my_list.clear()
+del list1[2]--range elements
+
+Iterate using the enumerate() Function
+The enumerate() function in Python is used to iterate over an iterable object while also providing the index of each element.
+We can iterate using the enumerate() function by applying it to the iterable. Following is the syntax −
+for index, item in enumerate(iterable):
+fruits = ["apple", "banana", "cherry"]
+for index, fruit in enumerate(fruits):
+   print(index, fruit)
+
+0 apple
+1 banana
+2 cherry
+List Comprehension in Python
+new_list = [expression for item in iterable if condition]
+list1=[x for x in range(1,21) if x%2==0]
+print (list1)
+List Comprehensions vs For Loop
+List comprehensions and for loops are both used for iteration, but they differ in terms of syntax and usage.
+List comprehensions are like shortcuts for creating lists in Python. They let you generate a new list by applying an operation to each item in an existing list.
+For loop, on the other hand, is a control flow statement used to iterate over elements of an iterable one by one, executing a block of code for each element.
+List comprehensions are often preferred for simpler operations, while for loops offer more flexibility for complex tasks.
+list2 = [10,16, 9, 24, 5]
+print ("list before sort", list2)
+list2.sort()
+print ("list after sort : ", list2)
+list1.sort(key=str.lower)
+joined_list = L1 + L2
+
+joined_list = [item for sublist in [L1, L2] for item in sublist]
+
+Python - Tuples
+
+Tuple is one of the built-in data types in Python. A Python tuple is a sequence of comma separated items, enclosed in parentheses (). The items in a Python tuple need not be of the same data type.
+
+tup1 = ("Rohan", "Physics", 21, 69.75)
+Python list is mutable, whereas tuple is immutable. Although any item from the tuple can be accessed using its index, and cannot be modified, removed or added.
+
+del tup;
+
+(1, 2, 3) + (4, 5, 6)	(1, 2, 3, 4, 5, 6)	Concatenation
+('Hi!',) * 4	('Hi!', 'Hi!', 'Hi!', 'Hi!')	Repetition
+3 in (1, 2, 3)	True	Membership
+
+T1 = T1 + T2
+sequence[start:stop:step]
+
+# Original tuple
+T1 = (10, 20, 30, 40)
+# Converting the tuple to a list
+list_T1 = list(T1)
+# Using list comprehension
+updated_list = [item + 100 for item in list_T1]
+# Converting the updated list back to a tuple
+updated_tuple = tuple(updated_list)
+# Printing the updated tuple
+print("Original Tuple:", T1)
+print("Updated Tuple:", updated_tuple)
+
+tup1 = (10,20,30)
+x, y, z = tup1
+print ("x: ", x, "y: ", "z: ",z)
+
+Python - Sets
+
+In Python, a set is an unordered collection of unique elements. Unlike lists or tuples, sets do not allow duplicate values i.e. each element in a set must be unique. Sets are mutable, meaning you can add or remove items after a set has been created.
+
+my_set = {1, 2, 3, 4, 5}
+print (my_set)
+my_set = set([1, 2, 3, 4, 5])
+print (my_set)
+my_set = {1, 2, 2, 3, 3, 4, 5, 5}
+print (my_set)
+{1, 2, 3, 4, 5}
+my_set.add(4)  
+my_set.remove(3)  
+my_set.discard(5)  
+Union − It combine elements from both sets using the union() function or the | operator.
+Intersection − It is used to get common elements using the intersection() function or the & operator.
+Difference − It is used to get elements that are in one set but not the other using the difference() function or the - operator.
+Symmetric Difference − It is used to get elements that are in either of the sets but not in both using the symmetric_difference() method or the ^ operator.
+Python Set Comprehensions
+set_variable = {expression for item in iterable if condition}
+
+Frozen Sets
+In Python, a frozen set is an immutable collection of unique elements, similar to a regular set but with the distinction that it cannot be modified after creation. Once created, the elements within a frozen set cannot be added, removed, or modified, making it a suitable choice when you need an immutable set.
+my_set.update([4])
+my_set.remove("Physics")
+my_set.discard("PHP")
+removed_element = my_set.pop()
+my_set.clear()
+s1 = {1,2,3,4,5}
+s2 = {4,5,6,7,8}
+print ("s1: ", s1, "s2: ", s2)
+s3 = s1.intersection(s2)
+print ("s3 = s1 & s2: ", s3)
+s1 = {1,2,3,4,5}
+s2 = {4,5,6,7,8}
+print ("s1: ", s1, "s2: ", s2)
+s1.symmetric_difference_update(s2)
+print ("s1 after running symmetric difference ", s1)
+Set Operators in Python
+{1,2}∪{2,3}={1,2,3}
+
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+set3 = {6, 8, 9}
+set4 = {9, 45, 73}
+union_set1 = set1.union(set2)
+union_set2 = set3 | set4
+print ('The union of set1 and set2 is', union_set1)
+print ('The union of set3 and set4 is', union_set2)
+Python Set Intersection Operator (&)
+{1,2}∩{2,3}={2}
+
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+set3 = {6, 8, 9}
+set4 = {9, 8, 73}
+intersection_set1 = set1.intersection(set2)
+intersection_set2 = set3 & set4
+print ('The intersection of set1 and set2 is', intersection_set1)
+print ('The intersection of set3 and set4 is', intersection_set2)
+Python Set Difference Operator (-)
+If A={1,2,3} and B={3,5}, then A−B={1,2}
+
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+set3 = {6, 8, 9}
+set4 = {9, 8, 73}
+difference_set1 = set1.difference(set2)
+difference_set2 = set3 - set4
+print ('The difference between set1 and set2 is', difference_set1)
+print ('The difference between set3 and set4 is', difference_set2)
+Python Set Symmetric Difference Operator
+A Δ B = (A − B) ⋃ (B − A)
+If A = {1, 2, 3, 4, 5, 6, 7, 8} and B = {1, 3, 5, 6, 7, 8, 9}, then A Δ B = {2, 4, 9}.
+
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+set3 = {6, 8, 9}
+set4 = {9, 8, 73}
+symmetric_difference_set1 = set1.symmetric_difference(set2)
+symmetric_difference_set2 = set3 ^ set4
+print ('The symmetric difference of set1 and set2 is', symmetric_difference_set1)
+print ('The symmetric difference of set3 and set4 is', symmetric_difference_set2)
+is_subset1 = set1.issubset(set2)  
+Python - Dictionaries
+
+In Python, a dictionary is a built-in data type that stores data in key-value pairs. It is an unordered, mutable, and indexed collection. Each key in a dictionary is unique and maps to a value. Dictionaries are often used to store data that is related, such as information associated with a specific entity or object, where you can quickly retrieve a value based on its key.
+Python's dictionary is an example of a mapping type. A mapping object 'maps' the value of one object to another. To establish mapping between a key and a value, the colon (:) symbol is put between the two.
+capitals = {"Maharashtra":"Mumbai", "Gujarat":"Gandhinagar", "Telangana":"Hyderabad", "Karnataka":"Bengaluru"}
+numbers = {10:"Ten", 20:"Twenty", 30:"Thirty",40:"Forty"}
+marks = {"Savita":67, "Imtiaz":88, "Laxman":91, "David":49}
+Unordered − The elements in a dictionary do not have a specific order. Python dictionaries before version 3.7 did not maintain insertion order. Starting from Python 3.7, dictionaries maintain insertion order as a language feature.
+Mutable − You can change, add, or remove items after the dictionary has been created.
+Indexed − Although dictionaries do not have numeric indexes, they use keys as indexes to access the associated values.
+Unique Keys − Each key in a dictionary must be unique. If you try to assign a value to an existing key, the old value will be replaced by the new value.
+Heterogeneous − Keys and values in a dictionary can be of any data type.
+# Creating a dictionary using curly braces
+sports_player = {
+"Name": "Sachin Tendulkar",
+"Age": 48,
+"Sport": "Cricket"
+}
+print ("Dictionary using curly braces:", sports_player)
+# Creating a dictionary using the dict() function
+student_info = dict(name="Alice", age=21, major="Computer Science")
+print("Dictionary using dict():",student_info)  
+student_info["age"] = 22
+del student_info["major"]
+student_info = {
+   "name": "Alice",
+   "age": 22,
+   "major": "Computer Science",
+   "graduation_year": 2023
+}
+# Iterating through keys
+for key in student_info:
+   print("Keys:",key, student_info[key])
+
+# Iterating through values
+for value in student_info.values():
+   print("Values:",value)
+
+# Iterating through key-value pairs
+for key, value in student_info.items():
+   print("Key:Value:",key, value) 
+
+capitals = {"Maharashtra":"Mumbai", "Gujarat":"Gandhinagar", "Telangana":"Hyderabad", "Karnataka":"Bengaluru"}
+print ("Capital of Haryana is : ", capitals.get('Haryana'))
+Nested Dictionaries
+Nested dictionaries in Python refer to dictionaries that are stored as values within another dictionary. In other words, a dictionary can contain other dictionaries as its values, forming a hierarchical or nested structure.
+Nested dictionaries can be modified, updated, or extended in the same way as regular dictionaries. You can add, remove, or update key-value pairs at any level of the nested structure.
+nested_dict = {
+"outer_key1": {"inner_key1": "value1", "inner_key2": "value2"},
+"outer_key2": {"inner_key3": "value3", "inner_key4": "value4"}
+}
+print(nested_dict)
+Python - Arrays
+
+Unlike other programming languages like C++ or Java, Python does not have built-in support for arrays. However, Python has several data types like lists and tuples (especially lists) that are often used as arrays but items stored in these types of sequences need not be of the same type.
+In addition, we can create and manipulate arrays using the array module. Before proceeding further, let's understand arrays in general.
+What are arrays?
+An array is a container which can hold a fixed number of items and these items should be of the same type. Each item stored in an array is called an element and they can be of any type including integers, floats, strings, etc.
+For example:
+Integer Array: An array that holds only integers like [1, 2, 3, 4].
+Float Array: An array that holds only floating-point numbers like [1.2, 3.4, 5.6].
+String Array: An array that holds only strings like ["apple", "banana", "cherry"].
+
+# importing
+import array as array_name
+# creating array
+obj = array_name.array(typecode[, initializer])
+import array as arr
+# creating an array with integer type
+a = arr.array('i', [1, 2, 3])
+print (type(a), a)
+# creating an array with char type
+a = arr.array('u', 'BAT')
+print (type(a), a)
+# creating an array with float type
+a = arr.array('d', [1.1, 2.2, 3.3])
+print (type(a), a)
+Traverse − Print all the array elements one by one.
+Insertion − Adds an element at the given index.
+Deletion − Deletes an element at the given index.
+Search − Searches an element using the given index or by the value.
+Update − Updates an element at the given index.
+
+from array import *
+array1 = array('i', [10,20,30,40,50])
+print (array1[0])
+print (array1[2])
+
+from array import *
+array1 = array('i', [10,20,30,40,50])
+array1.insert(1,60)
+for x in array1:
+print(x)
+
+from array import *
+array1 = array('i', [10,20,30,40,50])
+array1.remove(40)
+for x in array1:
+print(x)
+from array import *
+array1 = array('i', [10,20,30,40,50])
+print (array1.index(40))
+from array import *
+array1 = array('i', [10,20,30,40,50])
+array1[2] = 80
+for x in array1:
+print(x)
+Python - Reverse Arrays
+
+Using slicing operation
+Using reverse() method
+Using reversed() method
+Using for loop
+
+1. List
+Syntax: lst = [1, 2, 3, 4]
+Access: lst[0] → Result: 1
+Append: lst.append(6) → Adds 6 to the end.
+Insert: lst.insert(2, 'a') → Adds 'a' at index 2 (before 3).
+Remove: lst.remove(3) → Removes first occurrence of 3.
+Pop: lst.pop() → Removes and returns the last item (4).
+Length: len(lst) → Result: 4 (number of items).
+Concatenate: lst + [7, 8] → Adds [7, 8] to the list.
+Multiply: lst * 2 → Repeats list: [1, 2, 3, 4, 1, 2, 3, 4]
+Slice: lst[1:3] → Result: [2, 3]
+Sort: lst.sort() → Sorts list in-place.
+Reverse: lst.reverse() → Reverses the order in-place.
+Properties:
+Ordered: Maintains insertion order.
+Mutable: Elements can be changed after creation.
+Duplicates Allowed: Can have repeated elements.
+Real-world Example: Shopping list (items can be added, removed, or reordered).
+
+2. Tuple
+Syntax: tup = (1, 2, 3, 4)
+Access: tup[0] → Result: 1
+Slice: tup[1:3] → Result: (2, 3)
+Length: len(tup) → Result: 4
+Concatenate: tup + (5, 6) → Adds (5, 6) to the tuple.
+Multiply: tup * 2 → Repeats tuple: (1, 2, 3, 4, 1, 2, 3, 4)
+Properties:
+Ordered: Maintains insertion order.
+Immutable: Cannot change elements after creation (can't modify, add, or remove items).
+Duplicates Allowed: Can have repeated elements.
+Real-world Example: Coordinates (x, y) where the values shouldn't change once set.
+
+3. Set
+Syntax: s = {1, 2, 3, 4}
+Add: s.add(5) → Adds 5 to the set if not already present.
+Remove: s.remove(3) → Removes 3 (raises KeyError if not present).
+Discard: s.discard(3) → Removes 3 if present (does nothing if not found).
+Pop: s.pop() → Removes and returns a random element.
+Length: len(s) → Result: 4 (number of unique items).
+Union: s | {5, 6} → Result: {1, 2, 3, 4, 5, 6}.
+Intersection: s & {2, 3, 4} → Result: {2, 3, 4}.
+Difference: s - {2, 3} → Result: {1, 4}.
+Subset: s <= {1, 2, 3, 4, 5} → Result: True (checks if s is a subset of {1, 2, 3, 4, 5}).
+Properties:
+Unordered: No guarantee of element order.
+Mutable: Can add or remove items.
+No Duplicates: Does not allow repeated elements.
+Real-world Example: Unique items in a bag (e.g., emails received, no duplicates).
+
+4. Dictionary
+Syntax: d = {'a': 1, 'b': 2}
+Access: d['a'] → Result: 1
+Add/Update: d['c'] = 3 → Adds or updates the key 'c' with value 3.
+Delete: del d['a'] → Deletes the key-value pair 'a': 1.
+Keys: d.keys() → Result: dict_keys(['a', 'b', 'c']).
+Values: d.values() → Result: dict_values([1, 2, 3]).
+Items: d.items() → Result: dict_items([('a', 1), ('b', 2), ('c', 3)]).
+Length: len(d) → Result: 3 (number of key-value pairs).
+Get: d.get('a') → Result: 1 (returns None if key not found).
+Properties:
+Unordered: No guaranteed order of keys/values until Python 3.7+.
+Mutable: Can modify, add, or remove items.
+No Duplicates in Keys: Keys must be unique, but values can repeat.
+Real-world Example: Contact Book (names as keys and phone numbers as values).
+
+5. Array (from array module)
+Syntax: from array import array; arr = array('i', [1, 2, 3])
+('i' specifies the type code for integers)
+Access: arr[0] → Result: 1
+Append: arr.append(4) → Adds 4 to the end.
+Remove: arr.remove(2) → Removes the first occurrence of 2.
+Length: len(arr) → Result: 3 (number of elements).
+Type: arr.typecode → Result: 'i' (integer type).
+Properties:
+Ordered: Maintains insertion order.
+Mutable: Can modify elements after creation.
+Fixed Type: All elements must be of the same data type (e.g., integers, floats).
+Real-world Example: Large dataset of numerical values (e.g., storing large arrays of integers).
+
+Key Differences Summary
+List:
+Ordered, Mutable, allows Duplicates.
+Real-world Example: Shopping list (items can change).
+Tuple:
+Ordered, Immutable, allows Duplicates.
+Real-world Example: Coordinates (can't change after setting).
+Set:
+Unordered, Mutable, No Duplicates.
+Real-world Example: Collection of unique items (e.g., emails).
+Dictionary:
+Unordered (until Python 3.7), Mutable, No Duplicates in Keys.
+Real-world Example: Contact book (name → phone number).
+Array:
+Ordered, Mutable, Fixed Type (e.g., integers).
+Real-world Example: Large array of numerical data (e.g., temperatures).
+List: Ordered, mutable, allows duplicates; best for flexible collections that need order. Slow for middle insertions.
+Tuple: Ordered, immutable, allows duplicates; ideal for constant data like coordinates. More memory efficient but can't be modified.
+Set: Unordered, mutable, no duplicates; perfect for unique items and set operations. Cannot access by index, and no duplicates allowed.
+Dictionary: Unordered (until Python 3.7+), mutable, key-value pairs; great for fast lookups using unique keys. Keys must be unique.
+Array: Ordered, mutable, single data type; memory efficient for large numerical datasets but less flexible than lists.
+Quick Comparison:
+List: Flexible, mixed types, slower for large datasets.
+Tuple: Immutable, safer, more memory efficient.
+Set: No duplicates, fast membership tests.
+Dictionary: Fast key-value lookups, unique keys.
+Array: Efficient for large, homogeneous data, limited data types.
+
+Feature
+List
+Tuple
+Set
+Dictionary
+Array
+Order
+Yes
+Yes
+No
+No (until Python 3.7)
+Yes
+Mutable
+Yes
+No
+Yes
+Yes
+Yes
+Duplicates
+Allowed
+Allowed
+Not allowed
+Keys must be unique
+N/A
+Efficiency
+O(n) for middle insertion
+O(1) for access
+O(1) for add/search
+O(1) for access
+More memory efficient for large, uniform data
+Best For
+Dynamic collections
+Constant data
+Unique collections
+Fast key-value lookups
+Numerical datasets
+Example
+Shopping list
+Coordinates
+Email list
+Contact book
+Sensor data
+
+
+
+
+
+
+Python - File Handling
+
+File Handling in Python
+File handling in Python involves interacting with files on your computer to read data from them or write data to them. Python provides several built-in functions and methods for creating, opening, reading, writing, and closing files. This tutorial covers the basics of file handling in Python with examples.
+Python - OOP Concepts
+In the real world, we deal with and process objects, such as students, employees, invoices, cars, etc. Objects are not only data and not only functions, but combination of both. Each real-world object has attributes and behavior associated with it.
+Principles of OOPs Concepts
+Organizes code, Reusability, Abstraction, Maintainability,Large-scale applications, extension & Team collaboration
+
+Class
+Definition: A class is a blueprint for creating objects (instances).
+
+Real-World Example: A class is like a blueprint for a house. The house can be built with different features (like size, color), but the blueprint defines the structure.
+
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# Create an object (instance)
+my_dog = Dog("Buddy", 5)
+print(my_dog.name)  # Output: Buddy
+
+Object
+Definition:- An object is an instance of a class. It holds real data and behaves according to the class blueprint.
+
+Real-World Example: A dog is an object created from the Dog class blueprint.
+
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# Object creation
+my_dog = Dog("Buddy", 5)
+print(my_dog.name)  # Output: Buddy
+
+Inheritance
+Definition: Inheritance allows a class to inherit attributes and methods from another class.
+Real-World Example: A "Golden Retriever" can inherit features from a generic "Dog" class.
+
+class Dog:
+    def speak(self):
+        print("Woof")
+
+class GoldenRetriever(Dog):
+    def fetch(self):
+        print("Fetching the ball!")
+
+# Object creation
+dog = GoldenRetriever()
+dog.speak()  # Inherited method
+dog.fetch()  # Child class method
+
+Encapsulation
+
+Definition: Encapsulation is the concept of bundling data and methods that operate on that data within a single unit (class). It also restricts access to some of the object’s components (private).
+
+Real-World Example: A remote control encapsulates the buttons and functions, so you don't need to understand the internal circuitry to use it.
+
+class Car:
+    def __init__(self):
+        self.__speed = 0  # Private attribute
+
+    def accelerate(self):
+        self.__speed += 5
+        print(f"Speed: {self.__speed} km/h")
+
+    def get_speed(self):
+        return self.__speed
+
+car = Car()
+car.accelerate()  # Speed: 5 km/h
+# print(car.__speed)  # Error: can't access private attribute
+print(car.get_speed())  # Output: 5
+
+Polymorphism
+
+Definition: Polymorphism means "many forms". It allows methods to behave differently based on the object that calls them.
+
+Real-World Example: A "speak" method can behave differently for a dog ("Woof") or a cat ("Meow").
+EX:- len(string), len(list), len(tuple), len(set)
+class Dog:
+    def speak(self):
+        print("Woof")
+
+class Cat:
+    def speak(self):
+        print("Meow")
+
+# Polymorphism
+animals = [Dog(), Cat()]
+for animal in animals:
+    animal.speak()  # Output: Woof \n Meow
+
+Abstraction
+
+Definition: Abstraction hides the complex implementation and shows only the essential features. You only interact with a simplified interface.
+
+Real-World Example: Driving a car—you don’t need to understand the engine’s mechanics, just how to drive it.
+
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def speak(self):
+        pass
+
+class Dog(Animal):
+    def speak(self):
+        print("Woof")
+
+dog = Dog()
+dog.speak()  # Output: Woof
+
+Encapsulation: Hides data and restricts access (through private attributes and public methods).
+Example: You can't directly access the car's internal speed (private variable), but you can control it through methods like accelerate().
+Abstraction: Hides the complexity, showing only the essential methods and details (using abstract methods or interfaces).
+Example: You don’t need to know how the car engine works internally (complex details); you just interact with the steering wheel, pedals, etc.
+
+Creating a constructor in Python
+The __init__() method acts as a constructor. It needs a mandatory argument named self, which is the reference to the object.
+
+Default Constructor in Python
+The Python constructor which does not accept any parameter other than self is called as default constructor.
+class Employee:
+'Common base class for all employees'
+def __init__(self):
+self.name = "Bhavana"
+self.age = 24
+e1 = Employee()
+print ("Name: {}".format(e1.name))
+print ("age: {}".format(e1.age))
+
+class Employee:
+'Common base class for all employees'
+def __init__(self, name, age):
+self.name = name
+self.age = age
+e1 = Employee("Bhavana", 24)
+e2 = Employee("Bharat", 25)
+print ("Name: {}".format(e1.name))
+print ("age: {}".format(e1.age))
+print ("Name: {}".format(e2.name))
+print ("age: {}".format(e2.age))
+
+
+Parameterized Constructor
+If a constructor is defined with multiple parameters along with self is called as parameterized constructor.
+Example
+In this example, the __init__() constructor has two formal arguments. We declare Employee objects with different values −
+Python - Instance Methods
+In addition to the __init__() constructor, there may be one or more instance methods defined in a class. A method with self as one of the formal arguments is called instance method, as it is called by a specific object.
+Example
+In the following example a displayEmployee() method has been defined as an instance method. It returns the name and age attributes of the Employee object that calls the method.
+class Employee:
+def __init__(self, name="Bhavana", age=24):
+self.name = name
+self.age = age
+def displayEmployee(self):
+print ("Name : ", self.name, ", age: ", self.age)
+e1 = Employee()
+e2 = Employee("Bharat", 25)
+e1.displayEmployee()
+e2.displayEmployee()
+class Employee:
+def __init__(self, name, age, salary):
+self.name = name # public variable
+self.__age = age # private variable
+self._salary = salary # protected variable
+def displayEmployee(self):
+print ("Name : ", self.name, ", age: ", self.__age, ", salary: ", self._salary)
+e1=Employee("Bhavana", 24, 10000)
+print (e1.name)
+print (e1._salary)
+print (e1.__age)
+
+Definition:
+Method Overriding in Python is when a subclass (child class) provides its own implementation of a method that is already defined in the parent class (superclass). The child class method "overrides" the parent class method.
+Simple Example:
+Imagine you have a basic class called Animal. Then, you create two subclasses, Dog and Cat. Both Dog and Cat will "override" a method speak() that is defined in the Animal class to make different sounds.
+Code Example:
+# Parent class (Superclass)
+class Animal:
+    def speak(self):
+        print("Animal makes a sound")
+
+# Child class (Subclass)
+class Dog(Animal):
+    def speak(self):  # This overrides the speak method in Animal
+        print("Dog barks")
+
+# Another child class (Subclass)
+class Cat(Animal):
+    def speak(self):  # This overrides the speak method in Animal
+        print("Cat meows")
+
+# Create instances
+animal = Animal()
+dog = Dog()
+cat = Cat()
+
+# Call the speak method
+animal.speak()  # Calls the method from Animal
+dog.speak()     # Calls the overridden method in Dog
+cat.speak()     # Calls the overridden method in Cat
+
+Output:
+Animal makes a sound
+Dog barks
+Cat meows
+
+Explanation:
+The Animal class has a method speak(), which prints "Animal makes a sound."
+Both the Dog and Cat subclasses override this method with their own version of speak().
+When you call speak() on a Dog or Cat object, Python will use the version from that specific class, not the one from Animal.
+So, method overriding lets subclasses provide their own version of a method that was already defined in a parent class.
+
+What is Method Overloading?
+Method overloading means defining a method (function) with the same name but different numbers or types of arguments. This allows you to call the method in different ways.
+For example, in some languages like Java, you might have:
+A method add(int a, int b)
+A method add(int a, int b, int c)
+class Calculator:
+    def add(self, a, b=0, c=0):  # b and c have default values
+        return a + b + c
+
+# Create an object
+calc = Calculator()
+
+# Calling with different numbers of arguments
+print(calc.add(10))          # 10 + 0 + 0 = 10 (one argument)
+print(calc.add(10, 20))      # 10 + 20 + 0 = 30 (two arguments)
+print(calc.add(10, 20, 30))  # 10 + 20 + 30 = 60 (three arguments)
+Method Overriding:
+Multiple methods with the same name (but in different classes).
+The method in the child class "overrides" the method in the parent class.
+The method is called based on the object type (whether it's an instance of the parent class or the child class).
+
+Method Overloading:
+Single method with multiple parameters.
+You can call the method with different numbers of arguments.
+Default arguments or variable-length arguments (*args) allow this.
+
+1. Python - Syntax Errors
+Definition:
+A Syntax Error occurs when Python can't understand a line of code because it doesn't follow the correct structure or grammar. These errors are usually caused by typos, missing characters (like parentheses or colons), or incorrect indentation.
+Real-world analogy:
+Imagine you're writing a letter, but you forget to use punctuation or write words in the wrong order. The person reading it will be confused because it doesn't follow the rules of language. Similarly, Python can't understand your code if it doesn't follow the syntax rules.
+Example in Python:
+print("Hello, world!"  # Missing closing parenthesis
+
+Error message:
+SyntaxError: unexpected EOF while parsing
+
+Simple Code Example:
+Here's an example with a syntax error:
+if 5 > 3
+    print("5 is greater than 3")
+
+Explanation:
+The syntax error here is that there's no colon (:) at the end of the if statement.
+In Python, you must add a colon after conditions (like if, for, while, etc.).
+Correct Code:
+if 5 > 3:  # Add the colon here
+    print("5 is greater than 3")
+Great! Let's move on to the next topic:
+2. Python - Exceptions
+Definition:
+An Exception is an event that disrupts the normal flow of a program. It occurs when something goes wrong during program execution, such as trying to divide by zero or accessing a list element that doesn't exist.
+In simple terms, exceptions are errors that Python raises when something unexpected happens during the execution of the program.
+Real-world analogy:
+Imagine you're at a cash register and you try to pay for an item with more money than you have in your wallet. The system will raise an exception (or alert) saying that you can't complete the transaction. Similarly, Python raises an exception when something goes wrong, and the program cannot continue normally.
+Example in Python:
+x = 10
+y = 0
+result = x / y  # This will cause a ZeroDivisionError
+
+Error message:
+ZeroDivisionError: division by zero
+
+Simple Code Example:
+# Trying to divide by zero
+x = 5
+y = 0
+result = x / y
+print(result)
+
+Explanation:
+Here, we're trying to divide x (5) by y (0), which will raise a ZeroDivisionError because dividing by zero is not allowed in Python.
+When Python encounters this, it stops the program and raises an exception.
+Correct Code (Handling the Exception):
+You can handle this exception by using a try-except block (we'll cover that next). But for now, just remember that this is an example of an exception being raised.
+3. Python - try-except Block
+Definition:
+The try-except block is used to handle exceptions in Python. It allows you to run a piece of code that might cause an exception, and if an exception occurs, you can handle it gracefully instead of the program crashing.
+try block: Contains the code that might raise an exception.
+except block: Contains the code that will run if an exception occurs.
+Real-world analogy:
+Imagine you're trying to open a door. Normally, it opens without issue, but if the door is locked (exception), you would handle it by checking if the door is locked and then unlocking it instead of just banging on it.
+Example of a try-except block:
+try:
+    x = 10
+    y = 0
+    result = x / y  # This will raise a ZeroDivisionError
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+
+Explanation:
+The code in the try block attempts to divide by zero.
+When a ZeroDivisionError occurs, Python jumps to the except block and prints the message "You can't divide by zero!" instead of crashing the program.
+Simple Code Example:
+try:
+    number = int(input("Enter a number: "))
+    result = 10 / number
+    print(f"The result is {result}")
+except ZeroDivisionError:
+    print("You cannot divide by zero!")
+except ValueError:
+    print("Please enter a valid number.")
+
+Explanation:
+The program asks the user to input a number, and then it attempts to divide 10 by that number.
+If the user enters 0, a ZeroDivisionError will be raised, and the program will print "You cannot divide by zero!".
+If the user enters something that's not a number (like a letter), a ValueError will be raised, and the program will print "Please enter a valid number.".
+
+4. Python - try-finally Block
+Definition:
+The try-finally block is used to guarantee that a certain piece of code will always run, regardless of whether an exception is raised or not. The finally block is typically used for cleanup actions (like closing files or releasing resources), which should happen no matter what.
+try block: Contains code that may raise an exception.
+finally block: Contains code that will always run, no matter what (even if an exception occurred in the try block).
+Real-world analogy:
+Imagine you're cleaning up your room. While cleaning, you may encounter some obstacles (like a pile of clothes), but you will still finish cleaning and put everything back in place no matter what.
+Example:
+try:
+    file = open("example.txt", "r")
+    content = file.read()
+    print(content)
+except FileNotFoundError:
+    print("File not found!")
+finally:
+    file.close()  # This will always run, even if the file was not found.
+    print("File has been closed.")
+
+Explanation:
+The try block tries to open and read a file.
+If the file doesn't exist, a FileNotFoundError is raised, and the except block handles it by printing an error message.
+Regardless of whether the file was successfully opened or not, the finally block ensures that the file (if it was opened) is closed and the message "File has been closed." is printed.
+Simple Code Example:
+try:
+    x = 5
+    y = 0
+    result = x / y
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+finally:
+    print("This will always run.")
+
+Explanation:
+In this case, even though the ZeroDivisionError will occur in the try block, the finally block will still execute, printing "This will always run." no matter what.
+Key Point:
+The finally block is useful for cleanup actions (like closing files, releasing resources, or cleaning up data), ensuring that this happens whether an exception occurred or not.
+
+5. Python - Raising Exceptions
+Definition:
+In Python, you can raise exceptions intentionally using the raise keyword. This is useful when you want to trigger an error manually, often because certain conditions in your program are not met (like invalid input or a problem that you want to catch early).
+Real-world analogy:
+Imagine you're organizing a meeting. If someone shows up late, you might "raise" a concern or point it out. Similarly, in Python, you can raise an exception to signal that something's gone wrong or an expected condition hasn't been met.
+Syntax to raise an exception:
+raise Exception("Something went wrong!")
+
+You can also raise specific types of exceptions, like ValueError, TypeError, etc.
+Example:
+def check_age(age):
+    if age < 18:
+        raise ValueError("Age must be 18 or older!")
+    print("Age is valid.")
+
+try:
+    check_age(16)  # This will raise a ValueError
+except ValueError as e:
+    print(f"Error: {e}")
+
+Explanation:
+The function check_age() checks if the given age is 18 or older.
+If the age is less than 18, it raises a ValueError with the message "Age must be 18 or older!".
+In the try-except block, the ValueError is caught and printed.
+Simple Code Example:
+def withdraw(amount, balance):
+    if amount > balance:
+        raise Exception("Insufficient funds!")
+    print(f"Withdrawal of {amount} is successful.")
+
+try:
+    withdraw(500, 300)  # This will raise an Exception
+except Exception as e:
+    print(f"Error: {e}")
+
+Explanation:
+In the withdraw function, if the requested amount is greater than the balance, an exception is raised with the message "Insufficient funds!".
+The try-except block catches the raised exception and prints the error message.
+Why Raise Exceptions?
+You raise exceptions when you want to signal that something unexpected has occurred in your program, and you want to handle it appropriately.
+Awesome! Let’s move on to the next two topics:
+7. Python - User-defined Exception
+Definition:
+A User-defined Exception allows you to create custom exception classes. These exceptions can be used to represent specific error conditions that are unique to your application. By creating your own exception, you can handle special cases in a way that makes sense for your program.
+To create a user-defined exception, you typically define a class that inherits from Python’s built-in Exception class.
+Real-world analogy:
+Imagine you're running a bank, and you want to raise an exception when someone tries to withdraw more money than they have in their account. Instead of using a general error, you define a custom exception like InsufficientFundsError.
+Syntax:
+class CustomError(Exception):
+    pass
+
+Example of a User-defined Exception:
+class InsufficientFundsError(Exception):
+    def __init__(self, balance, amount):
+        self.balance = balance
+        self.amount = amount
+        super().__init__(f"Cannot withdraw {amount}, balance is only {balance}.")
+
+def withdraw(balance, amount):
+    if amount > balance:
+        raise InsufficientFundsError(balance, amount)
+    balance -= amount
+    return balance
+
+try:
+    balance = 100
+    withdraw(balance, 200)  # This will raise InsufficientFundsError
+except InsufficientFundsError as e:
+    print(f"Error: {e}")
+
+Explanation:
+We define the custom exception InsufficientFundsError by subclassing Exception.
+The withdraw function checks if the withdrawal amount exceeds the balance. If it does, the custom exception InsufficientFundsError is raised.
+The try-except block catches this custom exception and prints the error message.
+Why Use User-defined Exceptions?
+Custom exceptions help make error messages more meaningful and specific to your program's context.
+They provide a way to handle special cases and logic that Python’s built-in exceptions may not cover.
+
+8. Python - Built-in Exceptions
+Definition:
+Python comes with a number of built-in exceptions that you can use to handle common error situations. These are predefined in Python, and you can use them directly or catch them when they occur in your program.
+Common Built-in Exceptions:
+ZeroDivisionError: Raised when dividing by zero.
+ValueError: Raised when a function gets an argument of the right type but an inappropriate value.
+TypeError: Raised when an operation or function is applied to an object of inappropriate type.
+IndexError: Raised when trying to access an index that is out of range in a list or string.
+FileNotFoundError: Raised when trying to open a file that does not exist.
+KeyError: Raised when a dictionary key is not found.
+Real-world analogy:
+Imagine you're trying to search for a file in a folder. If the file doesn't exist, the system will give you an error (FileNotFoundError). Similarly, Python has built-in exceptions that handle such common errors.
+Example of Built-in Exceptions:
+# ZeroDivisionError
+try:
+    x = 10 / 0
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+
+# ValueError
+try:
+    int("hello")  # Trying to convert a string to an integer
+except ValueError:
+    print("That's not a valid number!")
+
+# IndexError
+try:
+    my_list = [1, 2, 3]
+    print(my_list[5])  # Accessing an index that doesn't exist
+except IndexError:
+    print("Index out of range!")
+
+Explanation:
+The first block raises a ZeroDivisionError because dividing by zero is not allowed in Python.
+The second block raises a ValueError because the string "hello" cannot be converted to an integer.
+The third block raises an IndexError because we’re trying to access an index (5) that doesn’t exist in the list my_list.
+Why Use Built-in Exceptions?
+Built-in exceptions are useful because they are designed to handle common errors and edge cases, saving you time and effort when writing error-handling code.
+They provide clear, standard error messages that are widely understood.
+
+Python - Date and Time
+import datetime  # Import datetime module
+import time      # Import time module
+
+# 1. Get current date and time
+now = datetime.datetime.now()  # Current date and time
+print(now)
+
+# 2. Get current date
+today = datetime.date.today()  # Current date only
+print(today)
+
+# 3. Format current date/time
+formatted = now.strftime("%Y-%m-%d %H:%M:%S")  # Format as string
+print(formatted)
+
+# 4. Convert string to datetime
+date_string = "2024-12-18"
+dt_object = datetime.datetime.strptime(date_string, "%Y-%m-%d")  # String to datetime
+print(dt_object)
+
+# 5. Add 5 days to current date/time
+future = now + datetime.timedelta(days=5)  # Add 5 days
+print(future)
+
+# 6. Compare two datetime objects
+is_future = now < future  # Compare datetime objects
+print(is_future)
+
+# 7. Get Unix timestamp (seconds since Jan 1, 1970)
+timestamp = now.timestamp()  # Unix timestamp
+print(timestamp)
+
+# 8. Get the weekday (0 = Monday)
+weekday = today.weekday()  # Weekday (0=Monday, 6=Sunday)
+print(weekday)
+
+# 9. Sleep for 2 seconds
+time.sleep(2)  # Pause for 2 seconds
+print("Slept for 2 seconds")
+
+Python - math Module
+
+
+import math  # Import math module
+
+# 1. Get the square root of a number.
+print(int(math.sqrt(16)))
+
+# 2. Get the value of pi (π).
+print(math.pi)
+
+# 3. Round a number to the nearest integer.
+print(round(7.6))
+
+# 4. Calculate the factorial of a number.
+print(math.factorial(5))
+
+# 5. Find the sine, cosine, and tangent of an angle (in radians).
+print(math.sin(math.pi / 4))  # Corrected: sine of π/4
+print(math.cos(math.pi / 4))  # Corrected: cosine of π/4
+print(math.tan(math.pi / 4))  # Corrected: tangent of π/4
+
+# 6. Find the logarithm of a number to a specific base.
+print(math.log10(10))
+
+# 7. Find the greatest common divisor (GCD) of two numbers.
+print(math.gcd(10, 2))
+
+# 8. Find the absolute value of a number.
+print(abs(-12.7))
+
+# 9. Calculate the power of a number.
+print(math.pow(3, 4))
+
+# 10. Convert an angle from degrees to radians.
+print(math.radians(90))  # Corrected: convert 90 degrees to radians
+
+# 11. Calculate the exponential of a number (e^x).
+print(math.exp(2))
+
+
+import re
+
+txt = "Hello_123"
+
+# 1. Find all lowercase characters alphabetically between 'a' and 'm'
+print(re.findall(r"[a-m]", txt))
+
+# 2. Search for the first occurrence of '123'
+print(re.search(r"123", txt))
+
+# 3. Match if the string starts with 'Hello'
+print(re.match(r"^Hello", txt))
+
+# 4. Replace occurrences of '_123' with '-456'
+print(re.sub(r"_123", "-456", txt))
+
+# 5. Find all matches of lowercase characters between 'a' and 'm'
+print(re.findall(r"[a-m]", txt))
+
+# 6. Compile a regular expression and find all numbers
+pattern = re.compile(r"\d+")
+print(pattern.findall(txt))
+
+# 7. Find all words that start with 'H'
+print(re.findall(r"\bH\w+", txt))
+
+# 8. Extract digits from the string
+print(re.findall(r"\d", txt))
+
+# 9. Match any character except newline
+print(re.findall(r".", txt))
+
+# 10. Match optional character with '?', e.g., 'Hello' or 'Helloo'
+print(re.findall(r"Hello?", txt))
+
+# 11. Match zero or more occurrences of '_'
+print(re.findall(r"_*", txt))
+
+# 12. Match one or more occurrences of 'o'
+print(re.findall(r"o+", txt))
+
+# 13. Match exactly 3 'l' characters
+print(re.findall(r"l{3}", txt))
+
+# 14. Match between 1 and 3 occurrences of 'l'
+print(re.findall(r"l{1,3}", txt))
+
+# 15. Match the start of a string with '^Hello'
+print(re.match(r"^Hello", txt))
+
+# 16. Escape the special character '_' (if you wanted to match it literally)
+print(re.findall(r"\_", txt))
+
+# 17. Lookahead for '123' without consuming characters
+print(re.findall(r"\w+(?=123)", txt))
+
+# 18. Lookbehind for 'Hello' without consuming characters
+print(re.findall(r"(?<=Hello)\d+", txt))
+
+# 19. Non-capturing group for 'Hello' followed by digits
+print(re.findall(r"(?:Hello)\d+", txt))
+
+# 20. Match any whitespace character
+print(re.findall(r"\s", txt))
+
+# 21. Match non-whitespace characters
+print(re.findall(r"\S", txt))
+
+# 22. Match any word character (alphanumeric + underscore)
+print(re.findall(r"\w", txt))
+
+# 23. Match any non-word character
+print(re.findall(r"\W", txt))
+
+Pip in Python
+
+In Python, pip is the standard package management system used to install and manage software packages written in Python. It allows you to easily install libraries and frameworks to extend the functionality of Python applications. pip comes bundled with Python, starting from Python version 3.4 and above. 
+
+Python Iterators
+An iterator in Python is an object that enables traversal through a collection such as a list or a tuple, one element at a time. It follows the iterator protocol by using the implementation of two methods __iter__() and __next__().
+The __iter__() method returns the iterator object itself and the __next__() method returns the next element in the sequence by raising a StopIteration exception when no more elements are available.
+Iterators provide a memory-efficient way to iterate over data, especially useful for large datasets. They can be created from iterable objects using the iter() function or implemented using custom classes and generators.
+Iterables vs Iterators
+Before going deep into the iterator working, we should know the difference between the Iterables and Iterators.
+Iterable: An object capable of returning its members one at a time (e.g., lists, tuples).
+Iterator: An object representing a stream of data, returned one element at a time.
+it = iter([1,2,3])
+print (next(it)) == print (it.__next__())  # both are same
+print (it.__next__())
+print (it.__next__())
+print (next(it))
+__________________________________________________
+it = iter([1,2,3, 4, 5])
+print (next(it))
+while True:
+try:
+no = next(it)
+print (no)
+except StopIteration:
+Break
+
+
+for loop - Purpose: Iterates over a sequence; Iteration: Uses iterator automatically; Control Structure: Simple for collections; Usage: When iterating over a collection (list, string, etc.); Automatic Handling: Handles iteration automatically; Use: When iterating over collections.
+
+
+while loop - Purpose: Repeats code while a condition is true; Iteration: Manual control (e.g., next() or condition); Control Structure: Flexible for repeated actions; Usage: When condition-based iteration is needed; Automatic Handling: Manual iteration control; Use: When condition is unknown or variable.
+
+
+Iterator - Purpose: Accesses elements one by one in a collection; Iteration: Implements __iter__() and __next__() methods; Control Structure: Used with loops or manually; Usage: For custom data structures or lazy evaluation; Automatic Handling: Manual or loop-based iteration; Use: When accessing elements one by one.
+
+
+Python Generators
+Generators in Python are a convenient way to create iterators. They allow us to iterate through a sequence of values which means, values are generated on the fly and not stored in memory, which is especially useful for large datasets or infinite sequences.
+The generator in Python is a special type of function that returns an iterator object. It appears similar to a normal Python function in that its definition also starts with def keyword. However, instead of return statement at the end, generator uses the yield keyword.
+A generator is a special type of function or expression in Python that allows you to iterate over a sequence of values, but without storing them all in memory at once. Instead of returning all the values at once (like a list), generators produce values one at a time, which makes them more memory efficient, especially for large datasets.
+You can think of generators as a kind of "lazy iterator"—they only compute the next value when needed, which can save both time and memory.
+Key Concepts:
+yield: When a generator function is called, it doesn't execute immediately. Instead, it returns a generator object, which can be iterated over. The yield statement is used inside a generator function to return the next value in the sequence. When yield is called, the state of the generator is saved, and the next time the generator is called, it resumes from where it left off.
+Generator Expressions: These are similar to list comprehensions, but they return a generator object instead of a list.
+gen_expr = (x for x in range(1, 6))  # This creates a generator
+for value in gen_expr:
+    print(value)
+
+def count_up_to(max_value):
+    current = 1
+    while current <= max_value:
+        yield current  # This yields the current value and pauses execution
+        current += 1
+
+# Using the generator function
+counter = count_up_to(5)
+for number in counter:
+    print(number)
+I'm glad you liked the tagline! Here are some similar taglines that compare loops, iterators, and generators based on their efficiency and use cases:
+
+1. For Loop:
+"For Loops: Simple, but Memory Hungry for Large Datasets."
+This emphasizes that for loops work well for small to moderate datasets but can struggle with memory efficiency when the data becomes large.
+
+2. Iterator:
+"Iterators: Efficient Iteration, but Still Store All the Data."
+This tagline highlights that iterators allow you to iterate over data efficiently, but they still rely on holding the entire data structure in memory (like lists, tuples, etc.), which can lead to high memory consumption for large datasets.
+
+3. Generator:
+"Generators: Memory-Smart Iteration with Lazy Evaluation."
+This focuses on the key benefit of generators: they produce values on demand, without storing everything in memory, which is ideal for large or infinite sequences.
+
+4. Loop vs Iterator:
+"Loops: Fast for Small Data, Iterators: Cleaner for Large Data."
+This emphasizes that while loops are easy and quick for small datasets, iterators provide a cleaner, more structured way to work with large data, but still store the entire dataset in memory.
+
+5. Iterator vs Generator:
+"Iterators: Hold All Data in Memory, Generators: Compute on Demand."
+This draws the distinction between iterators and generators, showing that iterators still rely on memory storage for the data, while generators are lazy and only compute what’s needed.
+
+6. For Loop vs Generator:
+"For Loops: Fast for Known, Small Data; Generators: Efficient for Unknown, Large Data."
+This tagline contrasts a for loop's suitability for known, small data with the generator's strength in handling large, dynamic, or infinite data efficiently.
+
+7. Generators: The Memory-Saving Solution:
+"Generators: Power Through Large Data, One Value at a Time."
+This tagline highlights the strength of generators in efficiently processing large datasets with minimal memory usage.
+
+These taglines are meant to capture the strengths and trade-offs of loops, iterators, and generators in a concise and memorable way!
+Got it! Here's your explanation in a more storytelling format, designed to be easy to follow and remember:
+
+Imagine you’re working with a collection of numbers, and you need to loop through them. If the range of numbers is small, a simple for loop is perfect—it’s fast, easy to use, and doesn’t consume much memory. You can quickly get the results you need without worrying about how much memory the program uses.
+But as the numbers grow larger, let’s say you have a million of them, things start to change. If you try using a for loop for such a large dataset, the program might crash, throwing a runtime error or an out of memory error. Why? Because the for loop tries to store the entire dataset in memory all at once, and that’s just too much for the system to handle. Now you’re facing huge memory usage and poor performance.
+So, what can you do to avoid this? Well, this is where iterators come in. An iterator is like a smarter for loop—it still lets you go through the data, but it doesn’t store everything in memory. Instead, it handles the data one item at a time, reducing memory usage. But there’s a catch: you still need to manually iterate through the data (using next() or looping with for). It’s better than the regular for loop because it uses memory more efficiently, but it’s not quite perfect.
+Now, if you really want to handle huge datasets efficiently—maybe even infinite ones—you’ll want to use a generator. Generators are like the superheroes of memory management. They don’t store anything in memory. Instead, they generate the next value on the fly whenever you need it, and they only keep one value in memory at a time. This makes them super fast and memory-efficient, especially when dealing with large or infinite datasets. You don’t have to worry about running out of memory or storing a massive collection. Generators simply give you what you need, when you need it, without any waste.
+So, to summarize the journey:
+ If you're working with small data, a for loop is great. But as your data grows larger, you’ll run into memory issues. An iterator helps by iterating over the data one item at a time, without storing everything in memory. And for the best performance and memory efficiency, generators are the way to go—they don’t store data at all and generate values only when needed.
+In terms of memory and performance, think of it like this:
+ For < Iterator < Generator. Generators are the most efficient, iterators are a good step up from regular loops, and standard for loops are best for small ranges but fail when the data gets large.
+
+I hope this format feels more natural and easy to remember!
+
+Python - Recursion
+
+Recursion is a fundamental programming concept where a function calls itself in order to solve a problem. This technique breaks down a complex problem into smaller and more manageable sub-problems of the same type. In Python, recursion is implemented by defining a function that makes one or more calls to itself within its own body.
+def factorial(n):
+    if n == 0:  # Base case
+        return 1  # 0! = 1
+    else:
+        return n * factorial(n - 1)  # Recursive case
+
+# Test the function
+print('Factorial of 5:', factorial(5))
+
+def fibonacci(n):
+    if n == 0:
+        return 0  # Base case 1
+    elif n == 1:
+        return 1  # Base case 2
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)  # Recursive case
+
+# Test the function
+print('Fibonacci of 6:', fibonacci(6))  # Output will be 8 (0, 1, 1, 2, 3, 5, 8)
+Python - Decorators
+A Decorator in Python is a function that receives another function as an argument. The argument function is the one to be decorated by decorator. The behaviour of the argument function is extended by the decorator without actually modifying it.
+
+Function in Python is a first order object. It means that it can be passed as argument to another function just as other data types such as number, string or list etc. It is also possible to define a function inside another function. Such a function is called a nested function. Moreover, a function can return other functions as well.
+
