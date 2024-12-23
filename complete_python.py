@@ -1104,3 +1104,129 @@ data types.
 # except InvalidAmount as IA:  # Catch the custom InvalidAmount exception
 #     print(IA)  # Print the error message from the exception
 
+
+# ***************************************************
+#                  Python - Iterators
+# ***************************************************
+
+# In Python, we can iterate over any sequential data type.
+# An Iterable is a data type that allows iteration (e.g., lists, tuples, strings, sets).
+# An Iterator is an object that helps traverse through an Iterable.
+# The primary use of iterators is to access elements of an iterable one by one.
+# Iterators are more memory and speed efficient than loops.
+
+# Example of using an iterator with a list
+# iterator_list = iter([1, 2, 3, 4, 5])
+# print(iterator_list.__next__())  # Output: 1
+# print(iterator_list.__next__())  # Output: 2
+#
+# # Checking the type of iterator for different data types
+# print(type(iterator_list))  # Output: <class 'list_iterator'>
+# print(type(iter({1, 2, 3})))  # Output: <class 'set_iterator'>
+# print(type(iter("Python")))  # Output: <class 'str_iterator'>
+# print(type(iter((1, 2, 3))))  # Output: <class 'tuple_iterator'>
+#
+# # Using a while loop with next() to iterate over the list
+# it = iter([1, 2, 3, 4, 5])
+# print(next(it))  # Output: 1
+#
+# # Iterating through the rest of the elements using a while loop and handling StopIteration
+# while True:
+#     try:
+#         no = next(it)  # Get the next element
+#         print(no)
+#     except StopIteration:  # StopIteration exception is raised when the iterator is exhausted
+#         break
+
+# ***************************************************
+#                  Python - Generators
+# ***************************************************
+
+# A Generator generates the next element in the iteration.
+# Generators are faster than iterators and loops, and they are more memory-efficient.
+# Similar to list comprehensions, we can create a generator comprehension using () instead of [].
+
+# Generator comprehension example
+# generator_comprehension = (i for i in range(1, 11))
+# print(type(generator_comprehension))  # <class 'generator'>
+# print(generator_comprehension)  # <generator object <genexpr> at 0x1047d9e50>
+#
+# # List comprehension example for comparison
+# list_c = [i for i in range(1, 11)]
+# print(list_c)  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print(type(list_c))  # <class 'list'>
+#
+# # Generator function example
+# def generator_function(max_count):
+#     current = 1
+#     while current <= max_count:
+#         yield current
+#         current += 1
+#
+# # Output of calling the generator function
+# print(generator_function(5))  # <generator object generator_function at 0x10090c040>
+#
+# # Creating a generator object
+# generated_value = generator_function(10)
+# print(type(generated_value))  # <class 'generator'>
+# print(generated_value)  # <generator object generator_function at 0x100c94040>
+#
+# # Iterating over the generator
+# for i in generated_value:
+#     print(i, end="-")  # 1-2-3-4-5-6-7-8-9-10-
+
+
+# ***************************************************
+#                  Python - Decorators
+# ***************************************************
+
+# A decorator extends the behavior of a function without modifying its actual code.
+# Decorators allow us to reuse functionality and pass functions as arguments.
+
+# def decorator_function(func):
+#     # Wrapper function that adds behavior before and after the original function call
+#     def wrapper():
+#         print("Start")  # Code before calling the original function
+#         func()           # Calling the original function
+#         print("End")     # Code after calling the original function
+#     return wrapper
+#
+# # Original function that will be decorated
+# def say_hello():
+#     print('Hello World!')
+#
+# # Calling the original function directly
+# print("Without decorator:")
+# say_hello()  # Output: Hello World!
+#
+# # Decorating the say_hello function
+# decorated_fun = decorator_function(say_hello)
+#
+# # Calling the decorated function
+# print("\nWith decorator:")
+# decorated_fun()  # Output: Start \n Hello World! \n End
+
+
+# ***************************************************
+#                  Python - Recursion
+# ***************************************************
+
+"""
+Recursion is a fundamental programming concept where a function calls itself in order 
+to solve a problem. This technique breaks down a complex problem into smaller and more 
+manageable sub-problems of the same type. In Python, recursion is implemented by defining 
+a function that makes one or more calls to itself within its own body.
+"""
+
+
+# def fact(n):
+#     if n < 0:
+#         return f"Factorial is not defined for negative numbers."
+#     if n == 1 or n == 0:
+#         return 1
+#     else:
+#         return n * fact(n-1)
+#
+#
+# print(fact(10))
+
